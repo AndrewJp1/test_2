@@ -1,0 +1,49 @@
+nz-content{
+  padding: 20px;
+  background: white;
+}
+.layout {
+  min-height: 100vh;
+}
+nz-footer{
+  padding: 0;
+}
+p{
+  margin: 0;
+}
+.margin{
+  padding: 20px;
+  background:#f0f2f5;
+  // margin: 10px;
+  border-radius: 3px;
+  border: solid 1px;
+}
+.img{
+  width: 90px;
+  height: 90px;
+  border-radius: 70px;
+}
+.nombre{
+  font-size: 16px;
+  font-weight: 600;
+  color: black;
+}
+.apellido{
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: black;
+}
+.puesto{
+  font-size: 14px;
+  color: black;
+  font-weight: 400;
+}
+.telefono{
+  font-size: 14px;
+  color: gray;
+}
+.email{
+  font-size: 13px;
+  color: gray;
+}

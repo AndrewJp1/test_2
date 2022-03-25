@@ -1,0 +1,69 @@
+<nz-layout class="layout">
+
+  <!-- <nz-header> -->
+  <app-header></app-header>
+  <!-- </nz-header> -->
+
+  <nz-layout>
+
+    <nz-content style="display: grid;align-items: center;">
+
+      <img src="assets/img/fondo.jpg" class="fondo">
+
+      <div nz-row class="margin">
+
+        <!-- LOGIN -->
+        <div nz-col nzXs="24" nzSm="24" nzMd="12" nzLg="10" nzXl="10">
+          <div class="cuadro">
+
+            <div align="center" style="margin-bottom: 25px;">
+              <img src="assets/img/logo.jpg" class="img">
+            </div>
+            <div style="margin-bottom: 20px;">
+              <span class="title">Bienvenido/a</span>
+              <br />
+              <span>Introduce tus credenciales para acceder</span>
+            </div>
+
+            <form nz-form [formGroup]="form">
+
+              <nz-form-item>
+                <nz-form-label nz-col nzXs="6" nzSm="6" nzMd="6" nzLg="6" nzXl="6" nzFor="email" [nzNoColon]="true"
+                  style="text-align: start;">Usuario</nz-form-label>
+                <nz-form-control nzErrorTip="Por favor, introduzca su correo electrónico!">
+                  <input nz-input type="email" formControlName="email" placeholder="Correo" autocomplete="off">
+                </nz-form-control>
+              </nz-form-item>
+
+              <nz-form-item>
+                <nz-form-label nz-col nzXs="6" nzSm="6" nzMd="6" nzLg="6" nzXl="6" nzFor="password" [nzNoColon]="true"
+                  style="text-align: start;">Contraseña</nz-form-label>
+                <nz-form-control nzErrorTip="Por favor, introduzca su contraseña!">
+                  <input nz-input type="password" maxlength="15" formControlName="password" placeholder="Contraseña" />
+                  <span *ngIf="this.form.get('password')?.errors?.['minlength']" style="color: #ff4d4f;">
+                    Debe tener como mínimo 6 caracteres
+                  </span>
+                </nz-form-control>
+              </nz-form-item>
+
+            </form>
+
+            <div>
+              <button nz-button class="colorBtn" (click)="submitForm()">Acceder</button>
+            </div>
+
+          </div>
+        </div>
+
+
+      </div>
+
+    </nz-content>
+
+  </nz-layout>
+
+  <nz-footer>
+    <app-footer></app-footer>
+  </nz-footer>
+
+</nz-layout>

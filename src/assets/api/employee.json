@@ -1,0 +1,84 @@
+
+  [
+    {
+      "nombre": "Ignacio",
+      "apellido": "Abad Jimenez",
+      "puesto": "Desponsable de Desarrollo de RRHH",
+      "telefono": "61744290",
+      "email": "prueba@endalia.com",
+      "password":"111111"
+    },
+    {
+      "nombre": "Miguel Angel",
+      "apellido": "Aguirre Rivera",
+      "puesto": "Direccion Comercial",
+      "telefono": "34871575",
+      "email": "prueba@endalia.com",
+      "password":"222222"
+    },
+    {
+      "nombre": "Angela",
+      "apellido": "Alcala Ordoñez",
+      "puesto": "Administrativo/a",
+      "telefono": "28322925",
+      "email": "prueba@endalia.com",
+      "password":"333333"
+    },
+    {
+      "nombre": "Pedro",
+      "apellido": "Anton Teruel",
+      "puesto": "Operador Seccion 2 Turno Tarde",
+      "telefono": "28922925",
+      "email": "prueba@gmail.com",
+      "password":"444444"
+    },
+    {
+      "nombre": "Juan Pedro",
+      "apellido": "Ariza Franco Teruel",
+      "puesto": "Responsable de Proyecto",
+      "telefono": "28922925",
+      "email": "prueba@gmail.com",
+      "password":"555555"
+    },
+    {
+      "nombre": "Veronica",
+      "apellido": "Aguirre Leon",
+      "puesto": "Operador Seccion 1",
+      "telefono": "6781696",
+      "email": "prueba@gmail.com",
+      "password":"666666"
+    },
+    {
+      "nombre": "Carlos",
+      "apellido": "Alcala Herrera",
+      "puesto": "Auditor de Medioambiente / Encargado de Producion",
+      "telefono": "47278285",
+      "email": "prueba@gmail.com",
+      "password":"777777"
+    },
+    {
+      "nombre": "Laura",
+      "apellido": "Alvarez Pineda",
+      "puesto": "Auditor de Calidad",
+      "telefono": "28322925",
+      "email": "prueba@gmail.com",
+      "password":"888888"
+    },
+    {
+      "nombre": "Vicente",
+      "apellido": "Aparicio Herrero",
+      "puesto": "Coordinador de Ventas Zona Norte",
+      "telefono": "28322925",
+      "email": "prueba@gmail.com",
+      "password":"999999"
+    },
+    {
+      "nombre": "Ignacio",
+      "apellido": "Ariza Hidalgo",
+      "puesto": "Auditor de Medioambiente",
+      "telefono": "28322925",
+      "email": "prueba@gmail.com",
+      "password":"123456"
+    }
+  ]
+
